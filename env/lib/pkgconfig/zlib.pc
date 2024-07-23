@@ -1,0 +1,13 @@
+prefix=/Users/fathiyyahhemdan/Documents/Info_Invoice/env
+exec_prefix=/Users/fathiyyahhemdan/Documents/Info_Invoice/env
+libdir=/Users/fathiyyahhemdan/Documents/Info_Invoice/env/lib
+sharedlibdir=/Users/fathiyyahhemdan/Documents/Info_Invoice/env/lib
+includedir=/Users/fathiyyahhemdan/Documents/Info_Invoice/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
